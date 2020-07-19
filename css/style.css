@@ -1,0 +1,361 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Thasadith', sans-serif;
+    color: #ffffff;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sitio-header {
+    background: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0,.4)) , url(../img/hero.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.sitio-header .menu-principal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.sitio-header .menu-principal .logo {
+    font-size: 1.2em;
+}
+
+.sitio-header .menu-principal .logo h1 i {
+    color: #e8cd30;
+}
+
+.sitio-header .menu-principal .menu ul {
+    display: flex;
+    font-size: 1.3em;
+}
+
+.sitio-header .menu-principal .menu ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+
+.sitio-header .menu-principal .menu ul li a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.sitio-header .menu-principal .menu ul li a:hover {
+    transform: scale(1.1, 1.1);
+    transition: all .3s ease;
+}
+
+.sitio-header .menu-principal .menu ul li a i {
+    color: #e8cd30;
+}
+
+.sitio-header .nombre-sitio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.sitio-header .nombre-sitio h2 {
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.sitio-header .nombre-sitio .description {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.sitio-header .nombre-sitio .details {
+    width: 800px;
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.sitio-header .nombre-sitio a {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.sitio-header .nombre-sitio a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.titulo-seccion {
+    font-size: 40px;
+    color: #000000;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.detalle-seccion {
+    color: #808080;
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+.detalles .products {
+    display: flex;
+    justify-content: space-around;
+    color: #444444;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.products .product .etiqueta {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #009f4d;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 80px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.products .product .product-details h4 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.products .product .product-details p {
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.why {
+    background-color: #009f4d;
+}
+
+.why .titulo-seccion {
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+.why .why-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.why .why-us i {
+    color: #e8cd30;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.why .why-us h5 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 10px auto;
+}
+
+.why .why-us p {
+    color: #eeeeee;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 2;
+}
+
+.us {
+    margin-bottom: 80px;
+}
+
+.us-details {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.us .titulo-seccion {
+    margin-bottom: 60px;
+}
+
+.us-details img {
+    width: 600px;
+    height: 362px;
+    margin: 20px;
+}
+
+.us-details .details-us h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.us-details .details-us p {
+    margin-top: 10px;
+    line-height: 2;
+    font-size: 18px;
+    color: #444444;
+}
+
+.innovation {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0,.4)) , url(../img/us.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.innovation .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innovation .contenedor .inno {
+    width: 33%;
+    padding-top: 70px;
+    margin: 20px;
+}
+
+.innovation .contenedor .inno:first-child {
+    font-weight: bold;
+    flex-grow: 1;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    padding-right: 30px;
+}
+
+.innovation .contenedor .inno:nth-child(2) {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.innovation .contenedor .inno:last-child {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.products-services {
+    margin-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: #000000;
+}
+
+.services .service {
+    margin: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.services .service img {
+    width: 100%;
+    height: 250px;
+}
+
+.services .service div {
+    position: absolute;
+    width: 96%;
+    left: 2%;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 0px 4px #cccccc;
+    padding: 30px;
+    margin-top: -70px;
+    z-index: 1000;
+    background-color: #ffffff;
+} 
+
+.services .service div h2 {
+    text-transform: uppercase;
+    color: #444444;
+    padding-bottom: 20px;
+}
+.services .service div h2 i {
+    color: #009f4d;
+}
+
+.services .service div p {
+    color: #444444;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.footer {
+    margin-top: 150px;
+    padding-top: 10px;
+    height: 220px;
+    background-color: #444444;
+}
+
+.footer .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .contenedor h3 {
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.footer .contenedor h3 i {
+    color: #e8cd30;
+}
+
+.footer .contenedor p { 
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.footer .contenedor p a {
+    color: #e8cd30;
+    text-decoration: none;
+}
